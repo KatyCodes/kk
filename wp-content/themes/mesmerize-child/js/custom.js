@@ -7,9 +7,14 @@ jQuery(document).ready(function($) {
     $('#offcanvas_menu > li.mesmerize-menu-cart').show();
   }
 
+  if ($('body').hasClass("page-template-default page page-id-243 wp-custom-logo woocommerce-cart woocommerce-page woocommerce-demo-store mesmerize-inner-page")) {
+    $("#main_menu > li.mesmerize-menu-cart").show();
+    $('#offcanvas_menu > li.mesmerize-menu-cart').show();
+  }
+
    $('.copyright').html("© 2018 Kachka and <a target='_blank' href ='https://dev-vista.com'>  Dev-Vista </a>");
 
    $("#page > div.footer.footer-content-lists.footer-border-accent.paralax > div > div > div > div.col-sm-4.flexbox.center-xs.middle-xs.content-section-spacing-medium.footer-column-black > div > div.footer-logo.space-bottom-small > h2 > span").html("<img src='http://localhost:8888/kachka/wp-content/uploads/2018/03/kachkaicon.png'></img>");
 
-   
+
 })
